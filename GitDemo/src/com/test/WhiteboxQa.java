@@ -2,6 +2,7 @@ package com.test;
 
 import static org.testng.AssertJUnit.assertTrue;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -14,7 +15,8 @@ public class WhiteboxQa {
 	@BeforeSuite
 	public void beforeSuite(){
 		
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sridhar\\jar files\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.get("http://whiteboxqa.com/");
 	}
 	@Test
