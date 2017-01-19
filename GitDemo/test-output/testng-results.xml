@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104" started-at="2016-10-28T05:57:41Z" finished-at="2016-10-28T05:57:41Z">
+  <suite name="Default suite" duration-ms="83" started-at="2017-01-19T20:50:46Z" finished-at="2017-01-19T20:50:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104" started-at="2016-10-28T05:57:41Z" finished-at="2016-10-28T05:57:41Z">
+    <test name="Default test" duration-ms="83" started-at="2017-01-19T20:50:46Z" finished-at="2017-01-19T20:50:46Z">
       <class name="com.test.WhiteboxQa">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.WhiteboxQa@2aafb23c]" name="beforeSuite" is-config="true" duration-ms="22047" started-at="2016-10-27T22:57:19Z" finished-at="2016-10-27T22:57:41Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.WhiteboxQa@2aafb23c]" name="beforeSuite" is-config="true" duration-ms="19555" started-at="2017-01-19T12:50:27Z" finished-at="2017-01-19T12:50:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.test.WhiteboxQa@2aafb23c]" name="verifyTitle" duration-ms="79" started-at="2016-10-27T22:57:41Z" finished-at="2016-10-27T22:57:41Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.test.WhiteboxQa@2aafb23c]" name="verifyTitle" duration-ms="51" started-at="2017-01-19T12:50:46Z" finished-at="2017-01-19T12:50:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.WhiteboxQa@2aafb23c]" name="afterSuite" is-config="true" duration-ms="3453" started-at="2016-10-27T22:57:42Z" finished-at="2016-10-27T22:57:45Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.WhiteboxQa@2aafb23c]" name="afterSuite" is-config="true" duration-ms="1419" started-at="2017-01-19T12:50:46Z" finished-at="2017-01-19T12:50:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

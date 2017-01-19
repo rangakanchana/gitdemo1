@@ -15,8 +15,8 @@ public class WhiteboxQa {
 	@BeforeSuite
 	public void beforeSuite(){
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sridhar\\jar files\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\sridhar\\Downloads\\jar files\\chromedriver_win32\\chromedriver.exe");
+		driver = new FirefoxDriver();
 		driver.get("http://whiteboxqa.com/");
 	}
 	@Test
