@@ -22,7 +22,7 @@ public class WhiteboxQa {
 	@Test
 	public void verifyTitle(){
 		
-		//System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 		
 		assertTrue(driver.getTitle().contains("QA/QE/SDET Training."));
 	}
